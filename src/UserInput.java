@@ -11,9 +11,10 @@ public class UserInput {
         // > Иван
         // > Привет, Иван!
 
+        String operation = sc.next();
         int a = sc.nextInt();
         int b = sc.nextInt();
-        double c = sc.nextDouble();
-        System.out.println(a + b + c);
+        System.out.println(a + b);
+        System.out.println(operation);
     }
 }
