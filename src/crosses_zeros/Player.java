@@ -11,12 +11,8 @@ public class Player {
         this.name = name;
     }
 
-    public int [] makeTurn() {
-        System.out.println("Введите координаты:");
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
-        return new int[]{x, y};
+    public int [] makeTurn(Field f) {
+        return null;
     }
 
     public char getSymbol() {

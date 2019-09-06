@@ -2,14 +2,14 @@ package crosses_zeros;
 
 public class Controller {
     public void startGame() {
-        Player first = new Player(Field.CROSS, "First player");
-        Player second = new Player(Field.ZERO, "Second player");
+        Player first = new RandomPlayer(Field.CROSS, "First player");
+        Player second = new RandomPlayer(Field.ZERO, "Second player");
         Field field = new Field();
 
         Player currentPlayer = first;
         while(true) {
             field.printField();
-            int [] coords = currentPlayer.makeTurn();
+            int [] coords = currentPlayer.makeTurn(field);
             int row = coords[0];
             int column = coords[1];
             // TODO: correct action on wrong coordinates
@@ -35,6 +35,7 @@ public class Controller {
                 break;
             }
         }
+        field.printField();
 
         // second player goes
 //        field.printField();

@@ -14,7 +14,8 @@ public class Main {
 //        field.setValue(coords[0], coords[1], Field.CROSS);
 //        field.printField();
 
-
+        Object c;
+        String s;
         Controller ctrl = new Controller();
         ctrl.startGame();
     }

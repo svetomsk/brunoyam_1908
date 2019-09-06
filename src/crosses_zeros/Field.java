@@ -52,15 +52,15 @@ public class Field {
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[0].length; j++) {
                 if (data[i][j] == EMPTY) {
-                    return true;
+                    return false;
                 }
             }
         }
-        return false;
+        return true;
     }
 
     public void printField() {
-        for (int i = 0; i < data.length; i++) {
+        for (int i =   0; i < data.length; i++) {
             for (int j = 0; j < data[i].length; j++) {
                 System.out.print(data[i][j] + " ");
             }
