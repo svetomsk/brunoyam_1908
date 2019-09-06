@@ -11,7 +11,6 @@ public class Player {
         this.name = name;
     }
 
-    //    public Point makeTurn() {
     public int [] makeTurn() {
         System.out.println("Введите координаты:");
         Scanner sc = new Scanner(System.in);
