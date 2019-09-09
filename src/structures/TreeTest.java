@@ -28,17 +28,24 @@ public class TreeTest {
 //                System.out.println(ten.getLeft().getLeft().getValue());
 //            }
 //        }
-        print(ten);
+//        print(ten);
+
+        Tree tree = new Tree();
+        tree.addValue(10);
+        tree.addValue(8);
+        tree.addValue(1);
+        tree.addValue(0);
+        tree.printTree();
     }
 
     public static void print(Item current) {
-        System.out.println(current.getValue());
-
         if(current.getLeft() != null) {
             print(current.getLeft());
         }
         if(current.getRight() != null) {
             print(current.getRight());
         }
+
+        System.out.println(current.getValue());
     }
 }
