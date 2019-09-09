@@ -25,6 +25,13 @@ public class Tree {
                 Item item = new Item(null, null, newValue);
                 current.setLeft(item); // добавляем новое ребро
             }
+        } else {
+            if(current.getRight() != null) {
+                add(current.getRight(), newValue);
+            } else {
+                Item item = new Item(null, null, newValue);
+                current.setRight(item);
+            }
         }
     }
 
