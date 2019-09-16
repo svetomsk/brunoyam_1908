@@ -1,5 +1,8 @@
 package gui;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -31,21 +34,38 @@ public class Gui {
         JPanel keys = new JPanel();
         keys.setPreferredSize(new Dimension(550, 550));
         keys.setLayout(new GridLayout(4, 4));
+        ActionListener resultCalculator = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String inputString = input.getText();
+                try {
+                    int result = calc(inputString);
+                    input.setText(result + "");
+                } catch (ScriptException e1) {
+                    input.setText("0");
+                }
+            }
+        };
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
                 String buttonName = labels[i][j];
                 JButton currentButton = new JButton(buttonName);
-                currentButton.addActionListener(new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent e) {
-                        String inputString = input.getText();
-                        if(inputString.equals("0")) {
-                            input.setText(currentButton.getText());
-                        } else {
-                            input.setText(inputString + currentButton.getText());
+                if(buttonName.equals("=")) {
+                    currentButton.addActionListener(resultCalculator);
+                } else {
+                    ActionListener actionListener = new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            String inputString = input.getText();
+                            if (inputString.equals("0")) {
+                                input.setText(currentButton.getText());
+                            } else {
+                                input.setText(inputString + currentButton.getText());
+                            }
                         }
-                    }
-                });
+                    };
+                    currentButton.addActionListener(actionListener);
+                }
                 keys.add(currentButton);
             }
         }
@@ -54,5 +74,13 @@ public class Gui {
         window.add(status);
         window.add(keys);
         window.setVisible(true);
+    }
+
+    public static int calc(String value) throws ScriptException {
+        ScriptEngineManager mgr = new ScriptEngineManager();
+        ScriptEngine engine = mgr.getEngineByName("JavaScript");
+        String foo = value;
+        int result = (int) engine.eval(foo);
+        return result;
     }
 }
