@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44976e9c-1896-40e2-8a28-9c201ee402fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/MatrixMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/ArrayProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/ArraysExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConditionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/ConditionsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConstantsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/ConstantsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountSymbols.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/CountSymbols.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cycles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/Cycles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CyclesWithString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/CyclesWithString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FunctionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/FunctionsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScopesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/ScopesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/SimpleArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/StringExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypesConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/TypesConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariablesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_package/VariablesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crosses_zeros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crosses_zeros/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1908/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1908/StringExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1908/TypesConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/brunoyam_1908/VariablesExample.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,36 +68,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="2" />
-          <entry key="java" value="44" />
+          <entry key="java" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6531" />
-          <entry key="txt" value="114" />
+          <entry key="java" value="8555" />
+          <entry key="txt" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6531" />
-          <entry key="PLAIN_TEXT" value="114" />
+          <entry key="JAVA" value="8555" />
+          <entry key="PLAIN_TEXT" value="131" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/expression/ExpressionTest.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multithreading/MatrixMultiplier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="220">
+              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,82 +106,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/ArrayProcessor.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/ArraysExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/ConditionsExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/ConstantsExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/CountSymbols.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/Cycles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/CyclesWithString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/basic_package/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="219">
+              <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
+              <folding>
+                <element signature="e#7388#7389#0" expanded="true" />
+                <element signature="e#7427#7428#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,6 +130,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>hashcod</find>
+      <find>Here we continue program</find>
+      <find>hello from  fi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,12 +178,17 @@
         <option value="$PROJECT_DIR$/src/gui/TestExpression.java" />
         <option value="$PROJECT_DIR$/src/gui/Gui.java" />
         <option value="$PROJECT_DIR$/src/gui/EventsExample.java" />
+        <option value="$PROJECT_DIR$/src/basic_package/Field.java" />
+        <option value="$PROJECT_DIR$/src/multithreading/FirstTask.java" />
+        <option value="$PROJECT_DIR$/src/multithreading/ThreadExample.java" />
+        <option value="$PROJECT_DIR$/src/multithreading/Task.java" />
+        <option value="$PROJECT_DIR$/src/multithreading/MatrixMultiplier.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="998" />
+    <option name="width" value="1179" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -283,6 +210,12 @@
               <item name="brunoyam_1908__1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="brunoyam_1908__1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brunoyam_1908__1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +224,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="400" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568822174775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568832514973" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -309,26 +242,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EventsExample">
+  <component name="RunManager" selected="Application.MatrixMultiplier">
     <configuration name="EventsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.EventsExample" />
       <module name="brunoyam_1908" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="expression.ExpressionTest" />
-      <module name="brunoyam_1908" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="expression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections_example.MapsExample" />
+    <configuration name="MatrixMultiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.MatrixMultiplier" />
       <module name="brunoyam_1908" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections_example.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,20 +295,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadExample" />
+      <module name="brunoyam_1908" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MapsExample" />
-      <item itemvalue="Application.ExpressionTest" />
       <item itemvalue="Application.Gui" />
       <item itemvalue="Application.TestExpression" />
       <item itemvalue="Application.EventsExample" />
+      <item itemvalue="Application.ThreadExample" />
+      <item itemvalue="Application.MatrixMultiplier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixMultiplier" />
+        <item itemvalue="Application.ThreadExample" />
         <item itemvalue="Application.EventsExample" />
         <item itemvalue="Application.Gui" />
         <item itemvalue="Application.TestExpression" />
-        <item itemvalue="Application.ExpressionTest" />
-        <item itemvalue="Application.MapsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -445,14 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568657114467</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Files relocation">
+      <created>1568822231494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568822231494</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1179" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36944744" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24945295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,7 +456,8 @@
     <MESSAGE value="Add element to tree" />
     <MESSAGE value="All math operations implemented" />
     <MESSAGE value="Expression calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expression calculator" />
+    <MESSAGE value="Files relocation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files relocation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/basic_package/Main.java">
@@ -810,8 +751,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basic_package/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="740">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/ThreadExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
+          <folding>
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/MatrixMultiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
