@@ -1,3 +1,5 @@
+package basic_package;
+
 public class Cycles {
     public static void main(String[] args) {
         int sum = 0;

@@ -1,3 +1,5 @@
+package basic_package;
+
 public class TypesConversion {
     public static void main(String[] args) {
         String firstNumber = "123";

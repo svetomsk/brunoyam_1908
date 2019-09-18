@@ -1,3 +1,5 @@
+package basic_package;
+
 public class VariablesExample {
     // psvm
     public static void main(String[] args) {

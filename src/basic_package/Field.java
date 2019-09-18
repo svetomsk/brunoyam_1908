@@ -1,3 +1,5 @@
+package basic_package;
+
 public class Field {
     char [][] data;
     int x;

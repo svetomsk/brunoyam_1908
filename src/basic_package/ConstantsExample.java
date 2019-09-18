@@ -1,3 +1,5 @@
+package basic_package;
+
 public class ConstantsExample {
     public static final int SUCCESS = 0;
     public static final int WRONG_ARGUMENT = 1;

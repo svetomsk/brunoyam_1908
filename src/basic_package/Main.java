@@ -1,3 +1,5 @@
+package basic_package;
+
 public class Main { // <- это главный класс
     //    тело класса
 //    psvm

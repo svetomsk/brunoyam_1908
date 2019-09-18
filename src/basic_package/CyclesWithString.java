@@ -1,3 +1,5 @@
+package basic_package;
+
 public class CyclesWithString {
     public static void main(String[] args) {
         String name = "Ivan";

@@ -1,3 +1,5 @@
+package basic_package;
+
 public class StringExample {
     public static void main(String[] args) {
         String firstName = "Ivan";

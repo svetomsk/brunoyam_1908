@@ -9,9 +9,9 @@ public class Main {
 //        System.out.println("x = " + coords[0]);
 //        System.out.println("y = " + coords[1]);
 //
-//        Field field = new Field();
+//        basic_package.Field field = new basic_package.Field();
 //        field.printField();
-//        field.setValue(coords[0], coords[1], Field.CROSS);
+//        field.setValue(coords[0], coords[1], basic_package.Field.CROSS);
 //        field.printField();
 
         Object c;

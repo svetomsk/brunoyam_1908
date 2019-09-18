@@ -1,3 +1,5 @@
+package basic_package;
+
 public class ScopesExample {
     public static void main(String[] args) {
         int n = 10;

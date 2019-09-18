@@ -1,3 +1,5 @@
+package basic_package;
+
 public class FunctionsExample {
     public static void main(String[] args) {
         int [] data = {1, 2, 3, 4};

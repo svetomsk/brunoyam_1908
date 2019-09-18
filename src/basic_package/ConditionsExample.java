@@ -1,3 +1,5 @@
+package basic_package;
+
 public class ConditionsExample {
     public static void main(String[] args) {
         int value = -2;
