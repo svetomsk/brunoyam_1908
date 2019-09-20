@@ -15,6 +15,9 @@ public class OutputThread extends Thread {
         Scanner sc = new Scanner(System.in);
         while(true) {
             String output = sc.nextLine();
+
+            System.out.println("Some changes");
+
             try {
                 handler.writeLine(output);
             } catch (IOException e) {
