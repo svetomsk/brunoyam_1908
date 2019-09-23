@@ -34,16 +34,13 @@ public class Gui {
         JPanel keys = new JPanel();
         keys.setPreferredSize(new Dimension(550, 550));
         keys.setLayout(new GridLayout(4, 4));
-        ActionListener resultCalculator = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String inputString = input.getText();
-                try {
-                    int result = calc(inputString);
-                    input.setText(result + "");
-                } catch (ScriptException e1) {
-                    input.setText("0");
-                }
+        ActionListener resultCalculator = e -> {
+            String inputString = input.getText();
+            try {
+                int result = calc(inputString);
+                input.setText(result + "");
+            } catch (ScriptException e1) {
+                input.setText("0");
             }
         };
         for (int i = 0; i < 4; i++) {
@@ -53,17 +50,20 @@ public class Gui {
                 if(buttonName.equals("=")) {
                     currentButton.addActionListener(resultCalculator);
                 } else {
-                    ActionListener actionListener = new ActionListener() {
-                        @Override
-                        public void actionPerformed(ActionEvent e) {
-                            String inputString = input.getText();
-                            if (inputString.equals("0")) {
-                                input.setText(currentButton.getText());
-                            } else {
-                                input.setText(inputString + currentButton.getText());
-                            }
+
+
+
+                    ActionListener actionListener = e -> {
+                        String inputString = input.getText();
+                        if (inputString.equals("0")) {
+                            input.setText(currentButton.getText());
+                        } else {
+                            input.setText(inputString + currentButton.getText());
                         }
                     };
+
+
+
                     currentButton.addActionListener(actionListener);
                 }
                 keys.add(currentButton);

@@ -47,12 +47,9 @@ public class EventsExample {
 
             }
         };
-        MouseWheelListener mouseWheelListener = new MouseWheelListener() {
-            @Override
-            public void mouseWheelMoved(MouseWheelEvent e) {
-                System.out.println(e.getScrollAmount());
-                System.out.println(e.getWheelRotation());
-            }
+        MouseWheelListener mouseWheelListener = e -> {
+            System.out.println(e.getScrollAmount());
+            System.out.println(e.getWheelRotation());
         };
         KeyListener keyListener = new KeyListener() {
             @Override
